@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+body{
+    font-family: 'Amiko', sans-serif;
+    /*
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Montserrat', sans-serif;
+    */
+}
+ul{
+    list-style-type:none;
+}
+.wrapper {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin: 1%;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    /*
+    height:100vh;
+    */
+}
+.content{
+    display:flex;
+    flex-direction:row;
+    flex: 1 1 auto;
+    justify-content: center;
+}
+.design{
+    display:flex;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+.design-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.design-row__lessThan, .design-row__moreThan{ 
+    font-family: 'Bebas Neue', cursive;
+    font-size: 100px;
+    font-weight: bold;
+}
+.design-row__me__title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 90px;
+    font-weight: bold;
+}
+.design-row__me__subtitle{
+    padding: 0 0px 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.design-row__about__title{
+    font-family: 'Montserrat', sans-serif;
+    color: #444440;
+    font-size: 20px;
+}
+.design-row__about__text{
+    padding: 10px 0px 0 10px;
+    max-width: 500px;
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0 5%;
+}
+.information .block {
+    max-width: 500px;
+    margin:15% 0px;
+    font-size: 15px;
+
+}
+.information .title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #444440;
+
+}
+.inform_item {
+    margin-top:4%;
+}
+.information  .article{
+    padding-left:25px;
+} 
+.subtitle{
+    font-weight: bold;
+    margin-top: 20px;
+}
+.interests-list > li::before {
+    content: "> ";
+}
+/*
+.rating-mini {
+	display: inline-block;
+	font-size: 0;
+}
+.rating-mini span {
+	padding: 0;
+	font-size: 20px;
+	line-height: 1;
+	color: lightgrey;
+}
+.rating-mini > span::before {
+	content: "&#8195;";
+}
+.rating-mini > span.active {
+	color: gold;
+}
+*/
+.avatar {
+    display: inline;
+}
+.avatar img{
+    width: 65px;
+    height: 65px;
+}
+div .rating{
+    height: 5px;
+    width: 5px;
+    display: inline-block;
+    margin: 2px;
+    background-color:#DDE3E8;
+   }
+   
+   div .active {
+     background-color: #666666;  
+   }
+   
