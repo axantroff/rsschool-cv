@@ -2,7 +2,7 @@
 
 **Name and Surname**: Illia Kaltovich
 
-**Contacts**: email: ilyakaltovich7@gmail.com \\ telegram: https://t.me/gelemant
+**Contacts**: email: ilyakaltovich7@gmail.com \\ telegram: @gelemant [click](https://t.me/gelemant)
 
 **phone number**: +375(33)351-24-45
 
